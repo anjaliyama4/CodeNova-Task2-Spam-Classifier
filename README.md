@@ -61,12 +61,10 @@ The selected model was **Multinomial Naive Bayes**.
 | Spam precision | 100.00% |
 | Spam recall | 64.84% |
 | Spam F1-score | 78.67% |
-```
 
 ### Confusion Matrix
 
 ![Confusion Matrix](outputs/confusion_matrix.png)
-```
 
 These results are from one held-out test split and do not guarantee future performance. Although no legitimate messages were incorrectly flagged as spam in this test set, some spam messages were missed.
 
