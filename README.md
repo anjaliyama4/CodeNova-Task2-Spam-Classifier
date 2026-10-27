@@ -61,6 +61,12 @@ The selected model was **Multinomial Naive Bayes**.
 | Spam precision | 100.00% |
 | Spam recall | 64.84% |
 | Spam F1-score | 78.67% |
+```
+
+### Confusion Matrix
+
+![Confusion Matrix](outputs/confusion_matrix.png)
+```
 
 These results are from one held-out test split and do not guarantee future performance. Although no legitimate messages were incorrectly flagged as spam in this test set, some spam messages were missed.
 
@@ -71,7 +77,7 @@ See `outputs/test_metrics.csv` and `outputs/confusion_matrix.png` for evaluation
 ```text
 CodeNova-Task2-Spam-Classifier/
 ├── data/
-│   └── SMSSpamCollection
+│   └── SMSSpamCollection  # Download separately from UCI
 ├── src/
 │   └── spam_classifier.py
 ├── outputs/
@@ -82,8 +88,11 @@ CodeNova-Task2-Spam-Classifier/
 ├── models/
 │   └── best_spam_pipeline.joblib
 ├── requirements.txt
+├── .gitignore
 └── README.md
 ```
+
+The raw dataset is not included in the public repository. Download it from the [official UCI SMS Spam Collection page](https://archive.ics.uci.edu/dataset/228/sms+spam+collection) and place the extracted `SMSSpamCollection` file in the `data/` folder before running the project.
 
 ## Setup Instructions
 
@@ -150,6 +159,7 @@ The selected fitted pipeline is saved to:
 `models/best_spam_pipeline.joblib`
 
 It contains both the fitted TF-IDF vectorizer and the trained classifier. Load it with joblib in a compatible Python environment to make predictions without retraining.
+Only load the saved model from a trusted source, because joblib files can execute code when loaded.
 
 ## Limitations
 
