@@ -1,0 +1,15 @@
+
+CodeNova Task 2 - Spam Message Classifier
+Sample predictions from an interactive run
+
+Message: Congratulations! You have won a free prize. Call now!
+Prediction: SPAM
+
+Message: Hi, are we still meeting for lunch today?
+Prediction: HAM
+
+Model: Multinomial Naive Bayes
+Test accuracy: 95.64%
+Spam precision: 100.00%
+Spam recall: 64.84%
+Spam F1-score: 78.67%
