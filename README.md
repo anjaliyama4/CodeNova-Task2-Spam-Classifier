@@ -22,6 +22,8 @@ The model uses TF-IDF features and text preprocessing, including lowercasing, to
 
 - `ham`: legitimate messages
 - `spam`: unwanted or fraudulent messages
+  
+The dataset is stored locally in data/SMSSpamCollection and is excluded from this public repository. Download it from the official UCI source before running the project on another computer.
 
 Dataset source: https://archive.ics.uci.edu/dataset/228/sms+spam+collection
 
