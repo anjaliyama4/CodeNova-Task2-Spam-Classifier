@@ -168,3 +168,6 @@ Only load the saved model from a trusted source, because joblib files can execut
 ## Author
 
 Created as part of the CodeNova AI/ML Internship — Task 2.
+## Execution Screenshot
+
+![Task 2 Spam Classifier Execution](screenshot/task2-execution.png)
