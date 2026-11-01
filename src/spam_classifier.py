@@ -210,9 +210,7 @@ def predict_message(model, message):
 
 
 # Your existing code continues below
-if __name__ == "__main__":
-    df = load_dataset()
-    # Keep the rest of your existing code here
+ 
 
 
 
