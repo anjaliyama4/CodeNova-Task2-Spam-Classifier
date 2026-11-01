@@ -28,6 +28,8 @@ The dataset is stored locally in data/SMSSpamCollection and is excluded from thi
 Dataset source: https://archive.ics.uci.edu/dataset/228/sms+spam+collection
 
 The processed dataset used by this project contains 5,158 unique labeled messages after duplicate removal.
+- **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)
+- **License details:** https://creativecommons.org/licenses/by/4.0/
 
 ## Technology Stack
 
